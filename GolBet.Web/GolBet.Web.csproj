@@ -1,18 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <Content Remove="Views\Account\AccessDenied.cshtml" />
-    <Content Remove="Views\Account\Login.cshtml" />
-    <Content Remove="Views\Account\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Views\Account\AccessDenied.cshtml" />
-    <Compile Include="Views\Account\Login.cshtml" />
-    <Compile Include="Views\Account\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GolBet.Services\GolBet.Services.csproj" />
   </ItemGroup>
 
